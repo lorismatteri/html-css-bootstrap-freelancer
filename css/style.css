@@ -4,18 +4,57 @@
   border: 1px solid red;
 }
 
-#navbar {
-  background: #2C3E50;
+#site_header {
+  height: 500px;
+  background: #1ABC9C;
 }
 
-#site_header {
-  background: #1ABC9C;
+.mt_80 {
+  margin-top: 80px;
+}
+
+#nav_bar {
+  background: #2C3E50;
+  height: 80px;
+  line-height: 80px;
+}
+
+#nav_bar h3 {
+  color: white;
+}
+
+#nav_bar li {
+  color: white;
+}
+
+#nav_bar span {
+  display: none;
 }
 
 #about {
   background: #1ABC9C;
+  color: white;
 }
 
 #site_footer {
   background: #3A546D;
+  color: white;
+}
+
+#copy {
+  background: #2C3E50;
+}
+
+@media screen and (max-width: 767px) {
+  #nav_bar ul {
+    display: none;
+  }
+
+  #nav_bar span {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10%;
+  }
 }
