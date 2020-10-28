@@ -79,17 +79,17 @@ h1 {
 }
 
 /* SEZIONE PORTFOLIO */
-#portfolio h2, {
+#portfolio h2, #contact_me h2 {
   font-size: 2.5em;
   font-weight: bold;
   color: #2C3E50;
 }
 
-#portfolio span {
+#portfolio span, #contact_me span {
   color: #2C3E50;
 }
 
-#portfolio .line {
+#portfolio .line, #contact_me .line {
   background: #2C3E50;
 }
 
@@ -125,6 +125,34 @@ h1 {
 #about span:last-child {
   padding-right: 5%;
 }
+
+/* SEZIONE CONTACT ME */
+#contact_me form {
+  margin-top: 40px;
+}
+
+.form-group input, .form-group textarea {
+  font-size: 20px;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: 1px solid #2C3E50;
+}
+
+.form-group label {
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: #6C757D;
+}
+
+#contact_me button {
+  font-size: 1.25em;
+  padding: 15px 30px;
+  background: #1ABC9C;
+  color: white;
+  margin-top: 15px;
+}
+
 /* SEZIONE FOOTER */
 #site_footer {
   background: #3A546D;
