@@ -1,15 +1,33 @@
-.debug [class*="col-"] {
-  height: 200px;
-  background-color: pink;
-  border: 1px solid red;
+/* UTILITY */
+.pt_150 {
+  padding-top: 150px;
 }
 
+.py_15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.py_5 {
+  padding: 5% 0;
+}
+
+.px_5 {
+  padding: 0 5%;
+}
+
+.px_25 {
+  padding: 0 25px;
+}
+
+/* SEZIONE HEADER */
 #site_header {
   height: auto;
   background: #1ABC9C;
   color: white;
 }
 
+/* SEZIONE NAV */
 #nav_bar {
   background: #2C3E50;
   padding: 20px 10px;
@@ -24,10 +42,7 @@
   color: white;
 }
 
-.pt_150 {
-  padding-top: 150px;
-}
-
+/* SEZIONE BANNER */
 #avatar_img {
   max-width: 250px;
 }
@@ -38,7 +53,7 @@ h1 {
   line-height: 2em;
 }
 
-.divider-custom-line {
+.line {
   width: 100%;
   display: inline-block;
   background: white;
@@ -57,21 +72,60 @@ h1 {
   font-size: 2em;
 }
 
-/* .py_40 {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
+/* SEZIONE MAIN */
 .container_sm {
   max-width: 980px;
   margin: auto;
-} */
+}
 
+/* SEZIONE PORTFOLIO */
+#portfolio h2, {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #2C3E50;
+}
+
+#portfolio span {
+  color: #2C3E50;
+}
+
+#portfolio .line {
+  background: #2C3E50;
+}
+
+#portfolio .card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5%;
+}
+
+/* SEZIONE ABOUT */
 #about {
   background: #1ABC9C;
   color: white;
 }
 
+#about h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+#about p {
+  font-size: 1.75em;
+  line-height: 1.5em;
+}
+
+#about button {
+  margin-top: 5%;
+  color: white;
+  background: #1ABC9C;
+  border: 1px solid white;
+}
+
+#about span:last-child {
+  padding-right: 5%;
+}
+/* SEZIONE FOOTER */
 #site_footer {
   background: #3A546D;
   color: white;
@@ -81,6 +135,7 @@ h1 {
   background: #2C3E50;
 }
 
+/* MEDIA QUERIES */
 @media screen and (max-width: 767px) {
   #nav_bar ul {
     display: none;
