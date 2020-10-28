@@ -20,6 +20,10 @@
   padding: 0 25px;
 }
 
+.mr_15 {
+  margin-right: 15px;
+}
+
 /* SEZIONE HEADER */
 #site_header {
   height: auto;
@@ -159,8 +163,44 @@ h1 {
   color: white;
 }
 
+#site_footer h4 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+#site_footer p {
+  font-size: 1.5em;
+  padding: 0 40px;
+}
+
+#site_footer .social_icon {
+  background: #3A546D;
+  color: white;
+  height: 50px;
+  width: 50px;
+  font-size: 1.5em;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+#site_footer .social_icon:hover {
+  background: white;
+  color: black;
+}
+
+#site_footer a:last-of-type {
+  color: #1ABC9C;
+}
+
 #copy {
   background: #2C3E50;
+  padding: 30px 0;
+}
+
+#copy p {
+  font-size: 0.9em;
+  margin-bottom: 0;
 }
 
 /* MEDIA QUERIES */
